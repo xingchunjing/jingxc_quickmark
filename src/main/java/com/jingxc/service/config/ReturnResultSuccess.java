@@ -1,0 +1,1 @@
+package com.jingxc.service.config;import lombok.Builder;import lombok.Data;@Data@Builderpublic class ReturnResultSuccess implements ReturnResult {    private int code;    private String msg;    private Object data;    private Integer count;}
